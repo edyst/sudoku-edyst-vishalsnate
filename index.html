@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+    <script type="text/javascript" src="./assets/script.js"></script>
+</head>
+<body>
+    <div class="level">
+        <div class="lecls">
+            <button class="diffbtn" id="easydiff" onClick="changeDifficulty(1)">Easy</button>
+            <button class="diffbtn" id="mediumdiff" onClick="changeDifficulty(2)">Medium</button>
+            <button class="diffbtn" id="harddiff" onClick="changeDifficulty(3)">Hard</button>
+        </div>
+    </div>
+    <div class="game">
+        <div id="board"></div>       
+    </div>
+    <div class="valval">
+        <center><button class="check" onClick="validate()">Validate</button></center>   
+    </div>
+</body>
+</html>
